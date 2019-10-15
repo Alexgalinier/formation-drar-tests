@@ -5,7 +5,15 @@
   "main": "index.js",
   "scripts": {
     "exo-00": "jest Exo-00",
-    "exo-01": "jest Exo-01"
+    "exo-01": "jest Exo-01",
+    "exo-02": "jest Exo-02",
+    "exo-03": "jest Exo-03",
+    "exo-04": "jest --coverage Exo-04",
+    "exo-05": "jest Exo-05",
+    "exo-06": "jest Exo-06",
+    "exo-07": "cypress open",
+    "exo-08": "jest --coverage Exo-08",
+    "exo-08-eslint": "eslint Exo-08/discount-helper.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +26,12 @@
   },
   "homepage": "https://github.com/Alexgalinier/formation-drar-tests#readme",
   "dependencies": {
-    "jest": "^24.9.0"
+    "axios": "^0.19.0",
+    "cypress": "^3.4.1",
+    "eslint": "^6.5.1",
+    "jest": "^24.9.0",
+    "koa": "^2.10.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
   }
 }
