@@ -1,0 +1,23 @@
+{
+  "name": "formation-drar-tests",
+  "version": "1.0.0",
+  "description": "Demi journée d'introduction aux tests automatisés dans le développement logiciel",
+  "main": "index.js",
+  "scripts": {
+    "exo-00": "jest Exo-00",
+    "exo-01": "jest Exo-01"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexgalinier/formation-drar-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexgalinier/formation-drar-tests/issues"
+  },
+  "homepage": "https://github.com/Alexgalinier/formation-drar-tests#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
